@@ -1,0 +1,15 @@
+/home/salvador/Documents/proj/pos-control-tool/bin/Debug/net7.0/pos-control-tool
+/home/salvador/Documents/proj/pos-control-tool/bin/Debug/net7.0/pos-control-tool.deps.json
+/home/salvador/Documents/proj/pos-control-tool/bin/Debug/net7.0/pos-control-tool.runtimeconfig.json
+/home/salvador/Documents/proj/pos-control-tool/bin/Debug/net7.0/pos-control-tool.dll
+/home/salvador/Documents/proj/pos-control-tool/bin/Debug/net7.0/pos-control-tool.pdb
+/home/salvador/Documents/proj/pos-control-tool/obj/Debug/net7.0/pos-control-tool.csproj.AssemblyReference.cache
+/home/salvador/Documents/proj/pos-control-tool/obj/Debug/net7.0/pos-control-tool.GeneratedMSBuildEditorConfig.editorconfig
+/home/salvador/Documents/proj/pos-control-tool/obj/Debug/net7.0/pos-control-tool.AssemblyInfoInputs.cache
+/home/salvador/Documents/proj/pos-control-tool/obj/Debug/net7.0/pos-control-tool.AssemblyInfo.cs
+/home/salvador/Documents/proj/pos-control-tool/obj/Debug/net7.0/pos-control-tool.csproj.CoreCompileInputs.cache
+/home/salvador/Documents/proj/pos-control-tool/obj/Debug/net7.0/pos-control-tool.dll
+/home/salvador/Documents/proj/pos-control-tool/obj/Debug/net7.0/refint/pos-control-tool.dll
+/home/salvador/Documents/proj/pos-control-tool/obj/Debug/net7.0/pos-control-tool.pdb
+/home/salvador/Documents/proj/pos-control-tool/obj/Debug/net7.0/pos-control-tool.genruntimeconfig.cache
+/home/salvador/Documents/proj/pos-control-tool/obj/Debug/net7.0/ref/pos-control-tool.dll
