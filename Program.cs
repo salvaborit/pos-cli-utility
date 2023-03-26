@@ -59,7 +59,9 @@ namespace PosControlUtility
             {
                 Console.Clear();
                 Console.WriteLine("MENU: SEARCH BY SERIAL");
-                Console.WriteLine("Usage: Pick the number for the data you wish to request. Input POS serial code when prompted and the requested data will appear on-screen. Type 'exit' or 'quit' to go back.\n");
+                Console.WriteLine("Usage: Pick the number for the data you wish to "
+                    + "request. Input POS serial code when prompted and the requested "
+                    + "data will appear on-screen. Type 'exit' or 'quit' to go back.\n");
 
                 Console.WriteLine("0) EXIT");
                 foreach (KeyValuePair<int, string> option in options)
@@ -87,7 +89,9 @@ namespace PosControlUtility
             Dictionary<string, string>[] terminalList = CsvToArrOfDicts(CSV_PATH);
             Console.Clear();
             Console.WriteLine("SEARCH BY SERIAL NUMBER");
-            Console.WriteLine("Usage: Input serial number and press ENTER. Result will show on screen below serial number. Type 'exit' or 'quit' to go back.\n");
+            Console.WriteLine("Usage: Input serial number and press ENTER. Result will"
+                + " show on screen below serial number."
+                + " Type 'exit' or 'quit' to go back.\n");
             bool run = true;
             while (run)
             {
