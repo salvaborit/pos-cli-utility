@@ -147,7 +147,7 @@ namespace PosControlUtility
 
                 for (int terminalCount = 0; !reader.EndOfStream; terminalCount++)
                 {
-                    // if (i == 0) continue;
+                    if (terminalCount == 0) continue;
                     string? line = reader.ReadLine();
                     if (line == null) return terminalList.ToArray();
 
