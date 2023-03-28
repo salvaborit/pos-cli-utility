@@ -7,19 +7,20 @@ using System;
 using System.IO;
 using System.Linq;
 
+using CSU = CsvSearchUtility;
+
 
 namespace PosControlUtility
 {
     class Program
     {
-
-        public static string CSV_PATH = "control.csv";
+        public static string CSV_PATH = "main.csv";
 
         static void Main(string[] args)
         {
             bool displayMenu = true;
 
-            while (displayMenu == true)
+            while (displayMenu)
                 displayMenu = MainMenu();
         }
 
@@ -29,8 +30,10 @@ namespace PosControlUtility
             Console.WriteLine("MENU: MAIN");
             Console.WriteLine("Type the option number you wish to choose.\n");
             Console.WriteLine("0) EXIT");
-            Console.WriteLine("1) Search by serial\n");
-            Console.Write("Option: ");
+            Console.WriteLine("1) Search by serial");
+            Console.WriteLine("2) CSV Search Utility");
+
+            Console.Write("\nSELECT A UTILITY: ");
             string? input = Console.ReadLine();
 
             if (input == "0")
@@ -38,6 +41,12 @@ namespace PosControlUtility
             else if (input == "1")
             {
                 Task.Run(() => SearchBySerialMenu()).Wait();
+                return true;
+            }
+            else if (input == "2")
+            {
+                CSU.CsvSearchUtility csvSearch = new CSU.CsvSearchUtility();
+                Task.Run(() => csvSearch.Entry()).Wait();
                 return true;
             }
             else
